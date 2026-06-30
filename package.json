@@ -1,0 +1,22 @@
+{
+  "name": "allergy-translations",
+  "version": "1.0.0",
+  "description": "Open-source locale files for allergy flashcard-style apps.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locales/*.js": "./locales/*.js"
+  },
+  "files": [
+    "index.js",
+    "locales",
+    "README.md"
+  ],
+  "keywords": [
+    "locales",
+    "translations",
+    "allergy"
+  ],
+  "license": "MIT"
+}
